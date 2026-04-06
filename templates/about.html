@@ -1,0 +1,163 @@
+<!doctype html>
+
+<html>
+    
+<head>
+	<title> Myers briggs personality prediction | About </title>
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.png">
+	<!-- External CSS file -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Our own css files -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+	<!-- Bootstrap CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- This is the nav bar. Paste on every page at the top of the body-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+	<a class="navbar-brand" href="/">MBTI TRAITS PREDICTOR</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+	  <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="/methodology">Documentation</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="/analysis">Analysis</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="/about">About</a>
+		</li>
+	  </ul>
+	</div>
+</nav>
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">About us</h1>
+        <p class="lead">
+          A small but dedicated team working together to puzzle out some machine learning for myers-briggs personalities.
+        </p>
+    </div>
+</div>
+    
+ 
+<!-- Bios section -->
+<section class="bios">
+    <div class="container">
+
+        <div class="row">
+            
+            <a href="https://www.linkedin.com/in/chalapathi-rao-0a065234/" target="_blank">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="card-img" src="{{ url_for('static', filename='images/P Chalapathi Rao Sir.png') }}" alt="P Chalapathi Rao">
+            </a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <br>
+                <h3>Mr.P. Chalapathi Rao, M.tech, (Ph.D)</h3>
+                <br>
+                <p>Ph.D scholar and assistant professor at BVC College of Engineering with experience in teaching, mentoring, and guiding students in the field of engineering. Dedicated to simplifying complex concepts and fostering a strong learning environment, with a commitment to continuous learning and academic excellence. Enjoys engaging with students, sharing knowledge, and contributing to their personal and professional development.</p>
+            </div>
+        </div>
+    </div>
+<br>
+<hr>
+
+<div class="container">
+        <div class="row">
+            
+            <a href="https://www.linkedin.com/in/sushma-deepika-sunkara-628bb5318/" target="_blank">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="card-img" src="{{ url_for('static', filename='images/Sushma 4258.png') }}" alt="Sushma Deepika">
+            </a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <br>
+                <h3>Sushma Deepika</h3>
+                <br>
+                <p>A Last year Artficial Inteligence and Machine Learning student with both theoritical and practical knowledge on python, pandas, Numpy, Scikit-learn, Machine Learning and Deep Learninig. Passionate about building real-world projects, solving practical problems, and continuously improving through hands-on learning. </p>
+            </div>
+        </div>
+    </div>
+<br>
+<hr>
+
+<div class="container">
+        <div class="row">
+            
+            <a href="https://www.linkedin.com/in/suryatejanagothu/" target="_blank">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <img class="card-img" src="{{ url_for('static', filename='images/surya.png') }}" alt="Surya Teja">
+            </a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <br>
+                <h3>Surya Teja</h3>
+                <br>
+                <p>Final year AIML Student, with a strong foundation in Python, statistics, Machine Learning and Data Science. Passionate about building real-world projects, solving practical problems, and continuously improving through hands-on learning. Enjoys sharing knowledge, working on projects, and growing in the field of AI and Data Science.</p>
+            </div>
+        </div>
+    </div>
+<br>
+<hr>
+
+<div class="container">
+    <div class="row">
+
+        <a href="https://www.linkedin.com/in/santhosh-matta-284a77310/" target="_blank">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <img class="card-img" src="{{ url_for('static', filename='images/santosh1.jpeg') }}" alt="Santhosh Matta">
+        </a>
+        </div>
+        <div class="col-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+            <br>
+            <h3>Santhosh</h3>
+            <br>
+            <p>An AIML student currently pursuing a degree at BVC College of Engineering, with a growing interest in technology and skill development. Motivated to build a strong foundation in technical concepts and gain practical experience through learning and collaboration</p>
+        </div>
+    </div>
+</div> 
+<br>
+<hr>
+
+<div class="container">
+    <div class="row">
+        <a href="#" target="_blank">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <img class="card-img" src="{{ url_for('static', filename='images/sairam1.png') }}" alt="Sai Ram">
+        </a>
+        </div>
+        <div class="col-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+            <br>
+            <h3>Sai ram </h3>
+            <br>
+            <p>A fourth-year B.Tech student at BVC College of Engineering, passionate about developing technical skills and problem-solving abilities. Focused on continuous learning, collaboration, and building a strong foundation for a successful engineering career.</p>
+        </div>
+    </div>
+</div>
+<br>
+</section>
+
+</body>
+
+<!-- Footer stuff -->
+<footer class="page-footer font-small blue">
+	<div class="footer-copyright text-center py-3">© 2026 Copyright:
+	  <a href="/">MBTI Personality Traits </a>
+	</div>
+</footer>
+
+</html>
