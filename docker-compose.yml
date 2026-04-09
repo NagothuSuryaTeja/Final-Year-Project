@@ -1,0 +1,10 @@
+# Source - https://stackoverflow.com/q/75830646
+# Posted by Sowmya Ravichandran, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-04-09, License - CC BY-SA 4.0
+
+version: '3.9'
+services:
+  flask:
+    build: .
+    image: my-app:latest
+

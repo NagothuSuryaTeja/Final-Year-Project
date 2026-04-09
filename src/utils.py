@@ -1,11 +1,13 @@
     ## Data Cleaning - IMP
 import re
 import string
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import pickle
 import os
-
+nltk.download('wordnet')
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 class DataCleaning:
