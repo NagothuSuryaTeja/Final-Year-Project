@@ -2,6 +2,9 @@
 
 ![MBTI Banner](https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
+## 🌐 Live Demo
+Check out the live application here: **[MBTI Personality Predictor](https://final-year-project-zld9.onrender.com/)**
+
 ## 📌 Overview
 This project is an end-to-end Machine Learning web application that predicts a user's **Myers-Briggs Type Indicator (MBTI)** personality based on text samples. Using advanced Natural Language Processing (NLP) and ensemble learning models, the application analyzes writing styles to classify users into one of the 16 unique MBTI personality types.
 
